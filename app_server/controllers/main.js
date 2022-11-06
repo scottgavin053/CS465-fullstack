@@ -1,7 +1,10 @@
 /* GET homepage*/
 const index = (req, res) => {
-    res.render('index', {title: 'Travlr Getaways' });
+
+    pageTitle = "Travlr Getaways - Home";
+    res.render('index', {title: pageTitle });
 };
+
 module.exports = {
     index
 };
